@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FTL Travel</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <h1>FTL Travel</h1>
+        <!-- Prominent Button linking to main.html -->
+        <div style="text-align: center; margin-top: 20px;">
+            <a href="main.html" style="text-decoration: none;">
+                <button style="font-size: 16px; padding: 10px 20px; background-color: #007BFF; color: white; border: none; border-radius: 5px; cursor: pointer;">
+                    sdnbs1
+                </button>
+            </a>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#papers">Papers</a></li>
+                <li><a href="#authors">Authors</a></li>
+                <li><a href="#disclaimer">Disclaimer</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="intro">
+            <h2>About the Project</h2>
+            <p>Exploring the possibilities of faster-than-light travel through groundbreaking scientific theories and technological innovation.</p>
+        </section>
+        <section id="papers">
+            <h2>Featured Papers</h2>
+            <ul>
+                <li><a href="papers/paper1.html">A Theoretical Examination of the Probability Constant Along the Stimulated Yukawa Scale</a></li>
+                <li><a href="papers/paper2.html">Quantum Fluctuations in Excited Higgs Fields: Harnessing Their Potential</a></li>
+                <li><a href="papers/paper3.html">Yukawa Interactions and the Value Creation Potential of Their Quantum Fluctuation Variables</a></li>
+                <li><a href="papers/paper4.html">Breaking the Final Barrier: Practical Implementation of Transrelativity Theory</a></li>
+                <li><a href="papers/paper5.html">What If? Oscillations, Waves, Strings, and Path Bifurcations: A Definition of Thirteen Quantum States</a></li>
+                <li><a href="papers/paper6.html">In the Hourglass: The Bottleneck Is Still the Human Body - Challenges in High-G Field Accelerators</a></li>
+            </ul>
+        </section>
+        <section id="authors">
+            <h2>Meet the Authors</h2>
+            <p><a href="authors.html">Learn more about the minds behind the research.</a></p>
+        </section>
+        <section id="disclaimer">
+            <h2>Disclaimer</h2>
+            <p>The content presented here is speculative and not based on experimentally verified data. It serves as a conceptual exploration of theoretical physics and engineering.</p>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 sdnbs1. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
