@@ -3,55 +3,92 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>High-Speed Travel Beyond the Speed of Light</title>
+    <title>Faster Than Light Research</title>
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
     <header>
-        <h1>High-Speed Travel Beyond the Speed of Light</h1>
-        <!-- Prominent Button linking to main.html -->
-        <div style="text-align: center; margin-top: 20px;">
-            <a href="main.html" style="text-decoration: none;">
-                <button style="font-size: 16px; padding: 10px 20px; background-color: #007BFF; color: white; border: none; border-radius: 5px; cursor: pointer;">
-                    sdnbs1
-                </button>
-            </a>
-        </div>
+        <h1>Welcome to Faster Than Light Research</h1>
         <nav>
             <ul>
-                <li><a href="#papers">Papers</a></li>
-                <li><a href="#authors">Authors</a></li>
-                <li><a href="#disclaimer">Disclaimer</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li class="dropdown">
+                    <a href="#" class="dropbtn">Research</a>
+                    <div class="dropdown-content">
+                        <a href="subpages/ftl-travel.html">FTL Travel</a>
+                        <a href="subpages/exobiology.html">Exobiology</a>
+                        <a href="subpages/exoplanetary-research.html">Exoplanetary Research</a>
+                    </div>
+                </li>
             </ul>
         </nav>
     </header>
     <main>
-        <section id="intro">
-            <h2>About the Project</h2>
-            <p>Exploring the possibilities of faster-than-light travel through groundbreaking scientific theories and technological innovation.</p>
+        <section id="about">
+            <h2>About Our Research</h2>
+            <p>At Faster Than Light Research, we explore groundbreaking theories in faster-than-light travel, extraterrestrial biology, and the discovery of habitable exoplanets.</p>
         </section>
-        <section id="papers">
-            <h2>Featured Papers</h2>
+        <section id="contact">
+            <h2>Contact Us</h2>
+            <p>Reach out to our team for inquiries or collaborations:</p>
             <ul>
-                <li><a href="papers/paper1.html">A Theoretical Examination of the Probability Constant Along the Stimulated Yukawa Scale</a></li>
-                <li><a href="papers/paper2.html">Quantum Fluctuations in Excited Higgs Fields: Harnessing Their Potential</a></li>
-                <li><a href="papers/paper3.html">Yukawa Interactions and the Value Creation Potential of Their Quantum Fluctuation Variables</a></li>
-                <li><a href="papers/paper4.html">Breaking the Final Barrier: Practical Implementation of Transrelativity Theory</a></li>
-                <li><a href="papers/paper5.html">What If? Oscillations, Waves, Strings, and Path Bifurcations: A Definition of Thirteen Quantum States</a></li>
-                <li><a href="papers/paper6.html">In the Hourglass: The Bottleneck Is Still the Human Body - Challenges in High-G Field Accelerators</a></li>
+                <li>Email: <a href="mailto:contact@ftlresearch.org">contact@ftlresearch.org</a></li>
+                <li>Phone: +1 555-123-4567</li>
+                <li>Address: 123 Quantum Drive, Theoretical City, Universe 101</li>
             </ul>
-        </section>
-        <section id="authors">
-            <h2>Meet the Authors</h2>
-            <p><a href="authors.html">Learn more about the minds behind the research.</a></p>
-        </section>
-        <section id="disclaimer">
-            <h2>Disclaimer</h2>
-            <p>The content presented here is speculative and not based on experimentally verified data. It serves as a conceptual exploration of theoretical physics and engineering.</p>
         </section>
     </main>
     <footer>
         <p>&copy; 2024 Faster Than Light Research. All Rights Reserved.</p>
     </footer>
+
+    <!-- CSS for dropdown menu -->
+    <style>
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: #333;
+        }
+        nav ul li {
+            float: left;
+        }
+        nav ul li a, .dropbtn {
+            display: inline-block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+        nav ul li a:hover, .dropdown:hover .dropbtn {
+            background-color: #575757;
+        }
+        .dropdown {
+            display: inline-block;
+        }
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            background-color: #f9f9f9;
+            min-width: 160px;
+            box-shadow: 0px 8px 16px rgba(0,0,0,0.2);
+            z-index: 1;
+        }
+        .dropdown-content a {
+            color: black;
+            padding: 12px 16px;
+            text-decoration: none;
+            display: block;
+            text-align: left;
+        }
+        .dropdown-content a:hover {
+            background-color: #f1f1f1;
+        }
+        .dropdown:hover .dropdown-content {
+            display: block;
+        }
+    </style>
 </body>
 </html>
